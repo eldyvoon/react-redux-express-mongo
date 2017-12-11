@@ -1,0 +1,93 @@
+.error-msg {
+	color: red;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+.am-tab-bar {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 50px;
+}
+
+.fixed-header.am-navbar {
+	position: absolute;
+	top: 0;
+	width: 100%;
+}
+
+.am-navbar.hidden {
+	display: none;
+}
+
+.page-content {
+	padding: 45px 5px
+}
+
+.am-card-body::before{
+	height: 0 !important;
+}
+
+.am-result-pic img {
+	width: 40px !important;
+}
+
+#chat-page .am-navbar{
+	margin-top: -45px;
+    z-index: 999;
+    position: relative;
+}
+
+#chat-page .chat-me .am-list-extra{
+	flex-basis:auto;
+}
+
+#chat-page .chat-me .am-list-content{
+	padding-right: 15px;
+	text-align: right;
+}
+
+.stick-footer{
+	z-index: 99999;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+}
+
+.stick-footer div {
+	height: 50px !important;
+}
+
+.stick-footer .am-input-control input {
+	height: 50px;
+}
+
+.stick-footer .am-input-extra {
+	color: white;
+	padding: 3px;
+	width: 50px;
+	text-align: center;
+	text-transform: uppercase;
+	border-radius: 3px;
+	background: #108ee9;
+	cursor: pointer;
+}
+
+.stick-footer .am-input-extra .sendBtn {
+	position: relative;
+	font-size: 12px;
+	top: 3px;
+}
+
+.mobile-wrap {
+	height: 90vh;
+    width: 400px;
+    overflow: auto;
+    position: absolute;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
